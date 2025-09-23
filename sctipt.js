@@ -59,3 +59,28 @@ function secoundlarger(arr) {
   return secoundlarger;
 }
 console.log("secound larger number is = " + secoundlarger(arr4));
+
+// ========================================
+// star pattern crete a 4*4 star
+
+const n = 4;
+for (var i = 0; i < n; i++) {
+  let num = "";
+  for (var j = 0; j < n; j++) {
+    num = num + "*";
+  }
+  console.log(num);
+}
+// ================
+// *
+// **
+// ***
+// ****
+const n1 = 4;
+for (var i = 0; i < n1; i++) {
+  let num = "";
+  for (var j = 0; j <= i; j++) {
+    num = num + "*";
+  }
+  console.log(num);
+}
