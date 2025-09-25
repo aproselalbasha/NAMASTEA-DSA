@@ -84,3 +84,50 @@ for (var i = 0; i < n1; i++) {
   }
   console.log(num);
 }
+
+// =================
+// 1
+// 12
+// 123
+// 1234
+// 12345
+
+var n2 = 5;
+for (let i = 0; i < n2; i++) {
+  let count = "";
+  for (let j = 0; j <= i; j++) {
+    count = count + (j + 1);
+  }
+  console.log(count);
+}
+
+// // =========
+// 1
+// 22
+// 333
+// 4444
+// 55555
+
+let n3 = 5;
+for (let i = 0; i < n3; i++) {
+  let count = "";
+  for (let j = 0; j <= i; j++) {
+    count = count + (i + 1);
+  }
+  console.log(count);
+}
+// ==============================
+// *****
+// ****
+// ***
+// **
+// *
+
+let n4 = 5;
+for (let i = 0; i < n4; i++) {
+  let count = "";
+  for (let j = 0; j < n4 - i; j++) {
+    count = count + "*";
+  }
+  console.log(count);
+}
