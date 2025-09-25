@@ -131,3 +131,61 @@ for (let i = 0; i < n4; i++) {
   }
   console.log(count);
 }
+// ===============
+// ----*
+// ---**
+// --***
+// -****
+// *****
+
+let n4 = 5;
+for (let i = 0; i < n4; i++) {
+  let count = "";
+  for (let j = 0; j < n4 - (i + 1); j++) {
+    count = count + "-";
+  }
+  for (let k = 0; k < i + 1; k++) {
+    count = count + "*";
+  }
+  console.log(count);
+}
+// =================
+// 1
+// 10
+// 101
+// 1010
+// 101010
+let n5 = 5;
+for (let i = 0; i < n5; i++) {
+  let count = "";
+  let flip = 1;
+  for (let j = 0; j <= i; j++) {
+    count = count + flip;
+    if (flip == 0) {
+      flip = 1;
+    } else flip = 0;
+  }
+
+  console.log(count);
+}
+// ===============
+// 1
+// 01
+// 010
+// 1010
+// 10101
+
+let n5 = 5;
+let flip = 1;
+for (let i = 0; i < n5; i++) {
+  let count = "";
+
+  for (let j = 0; j <= i; j++) {
+    count = count + flip;
+    if (flip == 0) {
+      flip = 1;
+    } else flip = 0;
+  }
+
+  console.log(count);
+}
