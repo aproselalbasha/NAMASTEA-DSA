@@ -123,10 +123,10 @@ for (let i = 0; i < n3; i++) {
 // **
 // *
 
-let n4 = 5;
-for (let i = 0; i < n4; i++) {
+let n6 = 5;
+for (let i = 0; i < n6; i++) {
   let count = "";
-  for (let j = 0; j < n4 - i; j++) {
+  for (let j = 0; j < n6 - i; j++) {
     count = count + "*";
   }
   console.log(count);
@@ -155,8 +155,8 @@ for (let i = 0; i < n4; i++) {
 // 101
 // 1010
 // 101010
-let n5 = 5;
-for (let i = 0; i < n5; i++) {
+let n7 = 5;
+for (let i = 0; i < n7; i++) {
   let count = "";
   let flip = 1;
   for (let j = 0; j <= i; j++) {
